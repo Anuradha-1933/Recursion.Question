@@ -1,0 +1,5 @@
+def PrintArray(arr,i,n):
+    if(i>=n):
+        return
+    print(arr[i],end=" ")
+    PrintArray(arr,i+1,n)
