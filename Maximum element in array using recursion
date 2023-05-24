@@ -1,0 +1,4 @@
+def maxEle(A, n):
+    if (n == 1):
+        return A[0]
+    return max(A[n - 1], maxEle(A, n - 1))
